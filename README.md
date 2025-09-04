@@ -3,9 +3,9 @@
 
 ---
 
-📊 Level 1 Task 2 – Exploratory Data Analysis (EDA) on Sentiment Dataset
+📊 **Level 1 Task 2 – Exploratory Data Analysis (EDA) on Sentiment Dataset**
 
-📌 Overview
+📌 **Overview**
 
 This project is part of my Data Analysis Internship at Codveda Technologies.
 The task focuses on performing Exploratory Data Analysis (EDA) on a social media Sentiment Dataset containing user posts, metadata, and engagement metrics.
@@ -13,7 +13,7 @@ The task focuses on performing Exploratory Data Analysis (EDA) on a social media
 
 ---
 
-🗂 Dataset
+🗂 **Dataset**
 
 File used: /content/Level 1/3) Sentiment dataset.csv
 
@@ -41,7 +41,7 @@ Year, Month, Day, Hour → Extracted time features
 
 ---
 
-🎯 Objectives
+🎯 **Objectives**
 
 1. Clean and preprocess dataset (remove duplicates, handle missing values, drop irrelevant columns).
 
@@ -68,7 +68,7 @@ Year, Month, Day, Hour → Extracted time features
 
 ---
 
-⚙️ Tools & Libraries
+⚙️ **Tools & Libraries**
 
 Python (Google Colab)
 
@@ -80,7 +80,7 @@ matplotlib, seaborn → visualizations
 
 ---
 
-📊 Key Analyses & Visuals
+📊 **Key Analyses & Visuals**
 
 ✔️ Sentiment distribution chart
 ✔️ Boxplots of Likes & Retweets by sentiment
@@ -92,7 +92,7 @@ matplotlib, seaborn → visualizations
 
 ---
 
-✅ Insights
+✅ **Insights**
 
 [Example] Positive posts dominate the dataset and receive the highest engagement.
 
@@ -108,7 +108,7 @@ matplotlib, seaborn → visualizations
 
 ---
 
-📂 Project Structure
+📂 **Project Structure**
 
 Level1_Task2_EDA_Sentiment.ipynb   # Google Colab Notebook
 README.md                          # Project documentation
@@ -116,7 +116,7 @@ README.md                          # Project documentation
 
 ---
 
-🔗 Links
+🔗 **Links**
 
 Colab Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/drive/1OPYSF-NSzobsQF_XSG2PB8mheaqwFiEj?authuser=4#scrollTo=Di3LcBmpF1GQ)
 
