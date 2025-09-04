@@ -1,8 +1,5 @@
 # Sentiment-Dataset-EDA
 
-Perfect 👍 — here’s a GitHub README.md draft you can drop straight into your repo for Level 1 Task 2 – Sentiment Dataset EDA.
-This will make your GitHub project look clean, professional, and portfolio-ready.
-
 
 ---
 
