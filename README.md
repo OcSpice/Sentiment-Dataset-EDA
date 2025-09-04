@@ -118,7 +118,7 @@ README.md                          # Project documentation
 
 🔗 Links
 
-Colab Notebook: View Notebook Here
+Colab Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/drive/1OPYSF-NSzobsQF_XSG2PB8mheaqwFiEj?authuser=4#scrollTo=Di3LcBmpF1GQ)
 
 LinkedIn Post: [Coming Soon]
 
