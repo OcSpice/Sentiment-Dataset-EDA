@@ -3,39 +3,32 @@
 
 ---
 
-📊 **Level 1 Task 2 – Exploratory Data Analysis (EDA) on Sentiment Dataset**
+# 📊 Sentiment Dataset EDA  
 
-📌 **Overview**
-
-This project is part of my Data Analysis Internship at Codveda Technologies.
-The task focuses on performing Exploratory Data Analysis (EDA) on a social media Sentiment Dataset containing user posts, metadata, and engagement metrics.
-
+### Level 1 Task 2 – Exploratory Data Analysis (EDA) on Sentiment Dataset  
 
 ---
 
-🗂 **Dataset**
+## 📌 Overview  
+This project is part of my **Data Analysis Internship at Codveda Technologies**.  
+The objective is to perform **Exploratory Data Analysis (EDA)** on a social media sentiment dataset, uncovering patterns in user mood, engagement, and activity across platforms and geographies.  
 
-File used: /content/Level 1/3) Sentiment dataset.csv
+---
 
-Columns include:
+## 🗂 Dataset  
+**File used:** `/content/Level 1/3) Sentiment dataset.csv`  
 
-Text → Social media post text
-
-Sentiment → Label (Positive, Negative, Neutral)
-
-Timestamp → Date & time of post
-
-User → Username (anonymized)
-
-Platform → Twitter, Facebook, Instagram, etc.
-
-Hashtags → Associated hashtags
-
-Retweets, Likes → Engagement metrics
-
-Country → User’s location
-
-Year, Month, Day, Hour → Extracted time features
+**Key Columns:**  
+- **Text** → Social media post content  
+- **Sentiment** → Label (Positive, Negative, Neutral, or fine-grained emotions later grouped)  
+- **Timestamp** → Date & time of post  
+- **User** → Anonymized username  
+- **Platform** → Social media platform (Twitter, Facebook, Instagram, etc.)  
+- **Hashtags** → Extracted hashtags  
+- **Likes** → Number of likes  
+- **Retweets** → Number of retweets/shares  
+- **Country** → Geographic source of the post  
+- **Year, Month, Day, Hour** → Extracted datetime features
 
 
 
@@ -80,46 +73,68 @@ matplotlib, seaborn → visualizations
 
 ---
 
-📊 **Key Analyses & Visuals**
+## 🔎 Steps in Analysis  
 
-✔️ Sentiment distribution chart
-✔️ Boxplots of Likes & Retweets by sentiment
-✔️ Platform-wise sentiment comparison
-✔️ Hourly sentiment trends
-✔️ Country-level sentiment analysis
-✔️ Correlation heatmap of numeric features
+1. **Data Cleaning**  
+   - Removed duplicate rows.  
+   - Dropped irrelevant index columns.  
+   - Stripped whitespace and standardized categorical values (e.g., Sentiment, Country).  
+
+2. **Sentiment Distribution**  
+   - The raw dataset had 175 unique emotion labels (e.g., *Joy, Anger, Celestial Wonder*).  
+   - These were consolidated into **3 main categories**: Positive, Negative, and Neutral.  
+   - Produced histograms to examine class balance.  
+
+3. **Temporal Analysis**  
+   - Extracted Year, Month, Day, and Hour from `Timestamp`.  
+   - Plotted activity trends by time to see when users post most frequently.  
+
+4. **Engagement Analysis**  
+   - Used boxplots to compare **Likes** and **Retweets** across different sentiment categories.  
+   - Observed which types of posts (Positive, Negative, Neutral) received more engagement.  
+
+5. **Platform Analysis**  
+   - Compared engagement (Likes, Retweets) across platforms (Twitter, Instagram, Facebook).  
+   - Identified where user engagement tends to be higher.  
+
+6. **Geographic Analysis**  
+   - Cleaned country names (e.g., `" USA  "` → `"USA"`).  
+   - Grouped results into **Top 5 countries** + "Other".  
+   - Plotted Likes & Retweets by country group for international perspective.  
+
+---
+
+## 📊 Visualizations  
+- Histogram: Sentiment distribution  
+- Boxplots: Likes & Retweets by sentiment  
+- Boxplots: Likes & Retweets by platform  
+- Boxplots: Likes & Retweets by country group  
+- Line plots: Posting trends by time (optional)  
+
+---
+
+## 📑 Key Insights (Sample)  
+- Positive posts received more Likes on average compared to Negative posts.  
+- Twitter had the highest posting volume, but Instagram posts showed higher engagement.  
+- Posts from the USA dominated in volume, while India and the UK showed higher spread in Retweets.
 
 
 ---
 
-✅ **Insights**
+## 📂 **Project Structure**
 
-[Example] Positive posts dominate the dataset and receive the highest engagement.
-
-[Example] Negative posts are more frequent during morning rush hours.
-
-[Example] Twitter posts tend to have higher engagement than Instagram/Facebook.
-
-[Example] Certain countries show a higher proportion of Neutral posts.
-
-
-(Your exact insights should be filled in after running the analysis.)
-
-
----
-
-📂 **Project Structure**
-
-Level1_Task2_EDA_Sentiment.ipynb   # Google Colab Notebook
+Level1_Task2_EDA_Sentiment.ipynb   # Google Colab Notebook (main analysis)
 README.md                          # Project documentation
 
 
 ---
 
-🔗 **Links**
 
-Open in Google Colab
-[![Open In Colab](https://colab.research.google.com/drive/1OPYSF-NSzobsQF_XSG2PB8mheaqwFiEj?authuser=4#scrollTo=Di3LcBmpF1GQ)
-LinkedIn Post: [Coming Soon]
+## 🔗 Links  
 
-Video Walkthrough: [Coming Soon]
+- **Open in Google Colab**  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OPYSF-NSzobsQF_XSG2PB8mheaqwFiEj?usp=sharing)  
+
+- **LinkedIn Post:** Coming Soon  
+
+- **Video Walkthrough:** Coming Soon
