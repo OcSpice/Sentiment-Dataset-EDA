@@ -109,11 +109,11 @@ matplotlib, seaborn → visualizations
 - Boxplots: Likes & Retweets by sentiment  
 - Boxplots: Likes & Retweets by platform  
 - Boxplots: Likes & Retweets by country group  
-- Line plots: Posting trends by time (optional)  
+- Line plots: Posting trends by time
 
 ---
 
-## 📑 Key Insights (Sample)  
+## 📑 Key Insights
 - Positive posts received more Likes on average compared to Negative posts.  
 - Twitter had the highest posting volume, but Instagram posts showed higher engagement.  
 - Posts from the USA dominated in volume, while India and the UK showed higher spread in Retweets.
