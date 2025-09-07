@@ -133,7 +133,7 @@ README.md                          # Project documentation
 ## 🔗 Links  
 
 - **Open in Google Colab**  
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OPYSF-NSzobsQF_XSG2PB8mheaqwFiEj?usp=sharing)  
+  [![Open In Colab](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/EDA_on_Sentiment_Dataset.ipynb)  
 
 - **LinkedIn Post:** Coming Soon  
 
