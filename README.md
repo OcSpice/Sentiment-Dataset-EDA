@@ -1,5 +1,6 @@
 # Sentiment-Dataset-EDA
-
+**Description:**
+Conducted exploratory data analysis (EDA) on a social media sentiment dataset containing posts, user metadata, engagement metrics, and geographies. Consolidated 175+ fine-grained emotions into Positive, Negative, and Neutral categories to analyze trends in mood, platform activity, and engagement.
 
 ---
 
@@ -121,19 +122,21 @@ matplotlib, seaborn → visualizations
 
 ---
 
-## 📂 **Project Structure**
+## 📂 Project Structure
 
-Level1_Task2_EDA_Sentiment.ipynb   # Google Colab Notebook (main analysis)
-README.md                          # Project documentation
+├── EDA_on_Sentiment_Dataset.ipynb   # Google Colab Notebook with cleaning, EDA, and insights  
+├── data/                            # Folder containing dataset(s)  
+│   └── sentiment_dataset.csv        # Raw social media sentiment dataset  
+├── README.md                        # Project documentation
 
 
 ---
 
 
-## 🔗 Links  
+## 🔗 Link
 
 - **Open in Google Colab**  
-  [![Open In Colab](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/EDA_on_Sentiment_Dataset.ipynb)  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/EDA_on_Sentiment_Dataset.ipynb)
 
 - **LinkedIn Post:** Coming Soon  
 
