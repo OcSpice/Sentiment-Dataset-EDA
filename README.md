@@ -1,4 +1,4 @@
-# Sentiment-Dataset-EDA
+# EDA_on_Sentiment_Dataset
 **Description:**
 Conducted exploratory data analysis (EDA) on a social media sentiment dataset containing posts, user metadata, engagement metrics, and geographies. Consolidated 175+ fine-grained emotions into Positive, Negative, and Neutral categories to analyze trends in mood, platform activity, and engagement.
 
