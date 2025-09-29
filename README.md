@@ -4,7 +4,7 @@ Conducted exploratory data analysis (EDA) on a social media sentiment dataset co
 
 ---
 
-# 📊 Sentiment Dataset EDA  
+# 📊 EDA on Sentiment Dataset  
 
 ### Level 1 Task 2 – Exploratory Data Analysis (EDA) on Sentiment Dataset  
 
